@@ -10,7 +10,8 @@ header {
 }
 
 header img {
-    object-fit: cover;    
+    object-fit: cover;
+    max-height: 400px; 
 }
 
 nav {
@@ -49,6 +50,7 @@ p {
 
 .dijazott {    
     letter-spacing: 1px;
+    font-style: italic;
 }
 
 .drop-shadow {
@@ -111,3 +113,12 @@ input[type="range"] {
     font-weight: bold;
     cursor: pointer;
 }
+
+a{
+font-weight: bold;
+}
+  
+.lista {
+line-height: 2;
+}
+  
